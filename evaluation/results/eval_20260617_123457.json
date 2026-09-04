@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260617_123457",
+  "config": {
+    "fetch_k": 30,
+    "top_n": 5,
+    "retrieval_mode": "hybrid+rerank"
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "What greenhouse gas emissions does BRSR Principle 6 Essential Indicator 6 require companies to disclose?",
+      "source": "brsr",
+      "type": "factual",
+      "generated_answer": "BRSR Principle 6 Essential Indicator 6 requires companies to disclose details of greenhouse gas emissions, specifically Scope 1 and Scope 2 emissions, and their intensity [1].\n\nSources:\n[1] [doc_id: brsr_2023, page: 24, section: \"PRINCIPLE 6: Businesses should respect and make efforts to protect\", type: prose]",
+      "chunks_retrieved": 5,
+      "scores": {
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+      }
+    },
+    {
+      "id": 21,
+      "question": "A listed Indian company files its BRSR on a consolidated basis and holds a 50% interest in a joint venture where the other partner has full operational control. What emissions from the JV should appear in its BRSR Principle 6 EI6 disclosure, and how does the choice of GHG Protocol consolidation approach affect this?",
+      "source": "both",
+      "type": "sensemaking",
+      "generated_answer": "I don't have enough information in the provided context to answer what emissions from the joint venture (JV) should specifically appear in the company's BRSR Principle 6 EI6 disclosure. The context does not define or provide requirements for BRSR Principle 6 EI6.\n\nHowever, the choice of GHG Protocol consolidation approach would affect the reported emissions from the JV as follows:\n\n1.  **Operational Control Approach**: If the company chooses the operational control approach, it would not report any emissions from the JV [4]. This is because the context defines operational control as having the full authority to introduce and implement operating policies at an operation [1]. In this scenario, the other partner has full operational control, meaning the company with joint financial control (but not operational control) would not report emissions under this approach [4].\n2.  **Financial Control Approach**: If the company chooses the financial control approach, emissions from the joint venture, where partners have joint financial control, are accounted for based on the equity share approach [1]. Given the company holds a 50% interest, it would report 50% of the JV's emissions [1].\n3.  **Equity Share Approach**: If the company uses the equity share approach, it would account for 50% of the JV's emissions, corresponding to its 50% interest [5].\n\nSources:\n[1] [doc_id: ghg_protocol, page: 20, section: \"Chapter 3: Setting Organizational Boundaries\", type: prose]\n[4] [doc_id: ghg_protocol, page: 20, section: \"Chapter 3: Setting Organizational Boundaries\", type: prose]\n[5] [doc_id: ghg_protocol, page: 24, section: \"Chapter 3: Setting Organizational Boundaries\", type: prose]",
+      "chunks_retrieved": 5,
+      "scores": {
+        "context_precision": {
+          "score": 3,
+          "reason": "Chunks [1], [4], and [5] were genuinely useful as they provided direct information or context for the different consolidation approaches discussed in the answer."
+        },
+        "faithfulness": {
+          "score": 1,
+          "reason": "All claims made in the generated answer are directly supported by or logically inferred from the provided retrieved chunks."
+        },
+        "completeness": {
+          "score": 3,
+          "reason": "The answer covers the main point about how different GHG Protocol approaches affect JV emissions, correctly identifying outcomes for operational control and equity share, but misses the ground truth's nuanced explanation for financial control and additional BRSR-specific details."
+        },
+        "correctness": {
+          "score": 3,
+          "reason": "The answer correctly identifies the outcomes for operational control and equity share, but its explanation for the financial control approach (50%) differs significantly from the ground truth's more nuanced and accurate explanation (0% or 100%)."
+        }
+      }
+    }
+  ]
+}

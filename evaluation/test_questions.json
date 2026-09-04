@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "question": "What greenhouse gas emissions does BRSR Principle 6 Essential Indicator 6 require companies to disclose?",
+    "ground_truth": "You need Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available), Total Scope 2 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available) Total Scope 1 and Scope 2 emissions per rupee of turnover, Total Scope 1 and Scope 2 emission intensity (optional) – the relevant metric may be selected by the entity.",
+    "source": "brsr",
+    "type": "factual"
+  },
+  {
+    "id": 2,
+    "question": "In what unit must Scope 1 and Scope 2 emissions be reported under BRSR?",
+    "ground_truth": "Unit should be Metric tonnes of Co2 equivalent",
+    "source": "brsr",
+    "type": "factual"
+  },
+  {
+    "id": 3,
+    "question": "What energy parameters must a company disclose under BRSR Principle 6 Essential Indicator 1?",
+    "ground_truth": "Total electricity consumption (A), Total fuel consumption (B), Energy consumption through other sources (C), Total energy consumption (A+B+C), Energy intensity per rupee of turnover (Total energy consumption/ turnover in rupees), Energy intensity (optional) – the relevant metric may be selected by the entity",
+    "source": "brsr",
+    "type": "factual"
+  },
+  {
+    "id": 4,
+    "question": "Is Scope 3 emissions reporting mandatory or voluntary under BRSR Principle 6?",
+    "ground_truth": "Since Scope 3 only appears in leadership indicator, it is voluntary and not mandatory under Principle 6",
+    "source": "brsr",
+    "type": "regulatory"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between Essential Indicators and Leadership Indicators in BRSR Section C?",
+    "ground_truth": "The essential indicators are expected to be disclosed by every entity that is mandated to file this report, the leadership indicators may be voluntarily disclosed by entities which aspire to progress to a higher level in their quest to be socially, environmentally and ethically responsible.",
+    "source": "brsr",
+    "type": "regulatory"
+  },
+  {
+    "id": 6,
+    "question": "Does BRSR require independent assessment of GHG emissions data?",
+    "ground_truth": "Not necessarily but if any independent assessment/ evaluation/assurance has been carried out by an external agency, that should be reported. If yes, name of the external agency.",
+    "source": "brsr",
+    "type": "regulatory"
+  },
+  {
+    "id": 7,
+    "question": "What emission intensity metrics does BRSR Principle 6 require companies to report?",
+    "ground_truth": "Mandatory intensity metric - Total Scope 1 and Scope 2 emissions per rupee of turnover and Optional intensity metric - Total Scope 1 and Scope 2 emission intensity – the relevant metric may be selected by the entity",
+    "source": "brsr",
+    "type": "analytical"
+  },
+  {
+    "id": 8,
+    "question": "What are Scope 1 emissions according to the GHG Protocol?",
+    "ground_truth": "Scope 1 emissions are Direct GHG emissions occurring from sources that are owned or controlled by the company, for example, emissions from combustion in owned or controlled boilers, furnaces, vehicles, etc.; emissions from chemical production in owned or controlled process equipment. Direct CO2 emissions from the combustion of biomass shall not be included in scope 1 but reported separately. GHG emissions not covered by the Kyoto Protocol, e.g. CFCs, NOx, etc. shall not be included in scope 1 but may be reported separately.",
+    "source": "ghg_protocol",
+    "type": "factual"
+  },
+  {
+    "id": 9,
+    "question": "What are Scope 2 emissions according to the GHG Protocol?",
+    "ground_truth": "Scope 2 emissions are Electricity indirect GHG emissions. It accounts for GHG emissions from the generation of purchased electricity consumed by the company. Purchased electricity is defined as electricity that is purchased or otherwise brought into the organizational boundary of the company. Scope 2 emissions physically occur at the facility where electricity is generated.",
+    "source": "ghg_protocol",
+    "type": "factual"
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between direct and indirect emissions in GHG Protocol?",
+    "ground_truth": "Direct GHG emissions are emissions from sources that are owned or controlled by the company. Indirect GHG emissions are emissions that are a consequence of the activities of the company but occur at sources owned or controlled by another company.",
+    "source": "ghg_protocol",
+    "type": "factual"
+  },
+  {
+    "id": 11,
+    "question": "What is a base year and why does a company need one?",
+    "ground_truth": "A meaningful and consistent comparison of emissions over time requires that companies set a performance datum with which to compare current emissions. This performance datum is referred to as the base year. For consistent tracking of emissions over time, the base year emissions may need to be recalculated as companies undergo significant structural changes such as acquisitions, divestments, and mergers.",
+    "source": "ghg_protocol",
+    "type": "factual"
+  },
+  {
+    "id": 12,
+    "question": "What are the two approaches for setting organisational boundaries under GHG Protocol?",
+    "ground_truth": "Two distinct approaches can be used to consolidate GHG emissions: the equity share and the control approaches. Under the equity share approach, a company accounts for GHG emissions from operations according to its share of equity in the operation. Under the control approach, a company accounts for 100 percent of the GHG emissions from operations over which it has control. It does not account for GHG emissions from operations in which it owns an interest but has no control.",
+    "source": "ghg_protocol",
+    "type": "procedural"
+  },
+  {
+    "id": 13,
+    "question": "What is the difference between equity share and operational control approach?",
+    "ground_truth": "Under the equity share approach, a company accounts for GHG emissions from operations according to its share of equity in the operation, reflecting its economic interest and percentage ownership. Under the operational control approach, a company accounts for 100 percent of the GHG emissions from operations over which it has operational control, regardless of its ownership percentage. The key difference is that a company with minority equity but full operational control would report 100% of emissions under operational control but only its ownership percentage under equity share.",
+    "source": "ghg_protocol",
+    "type": "procedural"
+  },
+  {
+    "id": 14,
+    "question": "How does a company identify its Scope 1 emission sources?",
+    "ground_truth": "The first of the five steps in identifying and calculating a company's Scope 1 emission sources as outlined: categorize the GHG sources within that company's boundaries. GHG emissions typically occur from the following source categories: • Stationary combustion: combustion of fuels in stationary equipment such as boilers, furnaces, burners, turbines, heaters, incinerators, engines, flares, etc. • Mobile combustion: combustion of fuels in transportation devices such as automobiles, trucks, buses, trains, airplanes, boats, ships, barges, vessels, etc. • Process emissions: emissions from physical or chemical processes such as CO2 from the calcination step in cement manufacturing, CO2 from catalytic cracking in petrochemical processing, PFC emissions from aluminum smelting, etc. • Fugitive emissions: intentional and unintentional releases such as equipment leaks from joints, seals, packing, gaskets, as well as fugitive emissions from coal piles, wastewater treatment, pits, cooling towers, gas processing facilities, etc.",
+    "source": "ghg_protocol",
+    "type": "procedural"
+  },
+  {
+    "id": 15,
+    "question": "What is double counting in GHG accounting and why is it a problem?",
+    "ground_truth": "Double counting occurs when two different companies include the same emissions in their respective inventories, for example when Scope 2 indirect emissions of one company are also counted as Scope 1 direct emissions of the electricity generating company. This is a problem because it overstates total global GHG emissions and makes individual company inventories unreliable for comparison and target-setting purposes. The GHG Protocol addresses this by defining clear scope boundaries so each emission source is counted once at the appropriate company level.",
+    "source": "ghg_protocol",
+    "type": "conceptual"
+  },
+  {
+    "id": 16,
+    "question": "What determines the quality and credibility of a company's GHG emissions inventory?",
+    "ground_truth": "The GHG Protocol outlines five accounting and reporting principles that determine the quality and credibility of a GHG inventory: relevance, completeness, consistency, transparency, and accuracy. Relevance ensures the GHG inventory appropriately reflects the GHG emissions of the company and serves the decision-making needs of users. Completeness requires accounting and reporting on all GHG emission sources and activities within the chosen inventory boundary. Consistency requires the use of consistent methodologies to allow for meaningful comparisons of emissions over time. Transparency requires addressing all relevant issues in a factual and coherent manner based on a clear audit trail. Accuracy requires that the quantification of GHG emissions is not systematically over or under actual emissions.",
+    "source": "ghg_protocol",
+    "type": "conceptual"
+  },
+  {
+    "id": 17,
+    "question": "What is a GHG inventory and what gases does it cover according to GHG Protocol?",
+    "ground_truth": "The GHG Protocol Corporate Standard provides standards and guidance for companies and other types of organizations preparing a GHG emissions inventory. It covers the accounting and reporting of the six greenhouse gases covered by the Kyoto Protocol — carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphur hexafluoride (SF6). A GHG inventory quantifies the amount of GHG emissions a company is responsible for, providing the data foundation for setting reduction targets, managing emissions, participating in voluntary GHG programs, and responding to stakeholder and regulatory information requests.",
+    "source": "ghg_protocol",
+    "type": "conceptual"
+  },
+  {
+    "id": 18,
+    "question": "How does the GHG Protocol definition of Scope 1 and Scope 2 align with what BRSR Principle 6 requires companies to disclose?",
+    "ground_truth": "The GHG Protocol defines Scope 1 as direct GHG emissions from sources that are owned or controlled by the company, such as emissions from combustion in owned or controlled boilers, furnaces, and vehicles. Scope 2 is defined as indirect GHG emissions from the generation of purchased electricity consumed by the company, which physically occur at the facility where electricity is generated. BRSR Principle 6 Essential Indicator 6 requires listed Indian companies to disclose Total Scope 1 and Total Scope 2 emissions in metric tonnes of CO2 equivalent with breakup by gas type where available, directly mapping to these GHG Protocol scope definitions.",
+    "source": "both",
+    "type": "cross_document"
+  },
+  {
+    "id": 19,
+    "question": "What gases does GHG Protocol require companies to account for and how does this align with BRSR disclosure requirements?",
+    "ground_truth": "The GHG Protocol Corporate Standard covers the accounting and reporting of six greenhouse gases under the Kyoto Protocol: carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), and sulphur hexafluoride (SF6). BRSR Principle 6 Essential Indicator 6 requires companies to report Scope 1 and Scope 2 emissions with a breakup into CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3 where available. The BRSR list is largely aligned with the GHG Protocol Kyoto gases with NF3 as an additional gas listed in the BRSR disclosure requirement.",
+    "source": "both",
+    "type": "cross_document"
+  },
+  {
+    "id": 20,
+    "question": "BRSR Leadership Indicator 4 in Principle 6 mentions Scope 3. Does this make Scope 3 reporting mandatory for all listed companies?",
+    "ground_truth": "Scope 3 reporting is not mandatory for listed Indian companies under BRSR Principle 6. BRSR Section C explicitly states that Essential Indicators are expected to be disclosed by every entity mandated to file the report, while Leadership Indicators may be voluntarily disclosed by entities which aspire to progress to a higher level in their quest to be socially, environmentally and ethically responsible. Since the Scope 3 emissions disclosure requirement appears only under Leadership Indicator 4 of Principle 6 and not under Essential Indicators, Scope 3 reporting remains voluntary and not mandatory under BRSR.",
+    "source": "both",
+    "type": "edge_case"
+  },
+  {
+    "id": 21,
+    "question": "A listed Indian company files its BRSR on a consolidated basis and holds a 50% interest in a joint venture where the other partner has full operational control. What emissions from the JV should appear in its BRSR Principle 6 EI6 disclosure, and how does the choice of GHG Protocol consolidation approach affect this?",
+    "ground_truth": "The answer depends entirely on which GHG Protocol consolidation approach the company uses, and the range is significant. Under the equity share approach (GHG Protocol Chapter 3): the company accounts for 50% of the JV's Scope 1 and Scope 2 emissions, reflecting its economic interest. Under the operational control approach: because the other partner holds operational control — meaning it has full authority to introduce and implement its own operating policies — the reporting company has 0% of the JV's emissions. Under the financial control approach: if the JV is treated as an associated company in financial accounts (significant influence but not financial control), the company reports 0%; if treated as a subsidiary (financial control), it reports 100%. BRSR Section A Question 13 asks whether disclosures are on a standalone or consolidated basis, and Section A Question 21 requires disclosure of joint ventures and ownership percentages — but BRSR does not specify which GHG Protocol consolidation approach to use. The same company with the same 50% JV stake can therefore legitimately report 0%, 50%, or 100% of JV emissions under BRSR depending on the approach chosen. GHG Protocol notes that when companies use different approaches this may lead to double counting, but states this does not matter for voluntary public reporting as long as the consolidation approach is adequately disclosed. For BRSR comparability, investors must check both the standalone/consolidated status in Section A Q13 and the methodology note in Principle 6 EI6 before comparing two companies' Scope 1 figures.",
+    "source": "both",
+    "type": "sensemaking"
+  },
+  {
+    "id": 22,
+    "question": "A company outsources all its manufacturing to a contract manufacturer who owns and operates the factory entirely. Under GHG Protocol, which scope are the factory's production emissions classified under, and what does this mean for the company's mandatory BRSR Principle 6 disclosures versus its actual climate footprint?",
+    "ground_truth": "Under GHG Protocol Chapter 4, the classification of outsourced activities into scopes depends on the consolidation approach selected. Under the operational control approach: the contract manufacturer owns and operates the factory and holds the operating license — it has full authority to introduce and implement its own operating policies. Therefore the reporting brand company does not have operational control over those emissions. The factory's production emissions are not Scope 1 for the brand company; they fall under Scope 3 (other indirect GHG emissions — outsourced activities), defined as emissions that are a consequence of the company's activities but occur at sources owned or controlled by another company. Under the equity share approach: if the brand company has no equity interest in the contractor, the factory emissions are again not in Scope 1 and are classified as Scope 3. For BRSR Principle 6: Essential Indicator 6 — the mandatory disclosure — requires only Scope 1 and Scope 2 emissions. Scope 3 is covered only under Leadership Indicator 4, which is voluntary. Therefore a company with fully outsourced manufacturing reports its own direct emissions under BRSR EI6 (company vehicles as Scope 1, purchased office electricity as Scope 2), while the large factory emissions from the contract manufacturer appear only if the company voluntarily reports Scope 3 under LI4. The practical implication is that two companies in the same sector — one integrated manufacturer and one brand company with outsourced production — can show vastly different mandatory BRSR Scope 1 figures even if their products have the same lifecycle emissions. This is a structural limitation of Scope 1 and 2 only mandatory reporting frameworks.",
+    "source": "both",
+    "type": "sensemaking"
+  },
+  {
+    "id": 23,
+    "question": "How do GHG Protocol's five accounting principles — relevance, completeness, consistency, transparency, and accuracy — each translate into a specific requirement for preparing a company's BRSR Principle 6 GHG disclosures?",
+    "ground_truth": "GHG Protocol Chapter 1 defines five principles, each of which has a direct application to BRSR Principle 6 EI6. Relevance: the inventory must reflect the company's actual emissions and serve decision-making needs. For BRSR, this means the organizational boundary chosen in Section A Q13 (standalone vs consolidated) must reflect the economic substance of the company's business relationships, not merely its legal form — for example, a company that derives economic profit from a JV should include proportionate JV emissions even if they are not legally its own. Completeness: all GHG sources within the chosen boundary must be accounted for and any exclusions must be justified. For BRSR EI6, this means all Scope 1 sources (stationary combustion, mobile combustion from owned vehicles, process emissions, and fugitive emissions) and all Scope 2 sources (purchased electricity) must be included — companies cannot silently omit inconvenient emission sources. Consistency: the same methodologies, boundary definitions, and emission factors must be used year over year. BRSR EI6 requires both current and previous year figures in a side-by-side table — meaningful comparison of these figures requires consistent methodology; if methods change, prior years must be restated with disclosure of the change. Transparency: processes, assumptions, emission factors, and limitations must be disclosed in a clear, auditable manner. BRSR explicitly requires disclosure of whether an independent assessment or external assurance has been carried out, directly embodying the transparency principle. Accuracy: emissions must be neither systematically over- nor under-estimated. This is especially critical for BRSR's intensity metric (Total Scope 1 and 2 emissions per rupee of turnover), which is derived from absolute figures — inaccurate absolutes produce a misleading and unverifiable intensity number. Together the five principles define what makes a BRSR GHG disclosure credible and defensible under external verification.",
+    "source": "both",
+    "type": "sensemaking"
+  },
+  {
+    "id": 24,
+    "question": "GHG Protocol excludes direct CO2 from biomass combustion from Scope 1 and requires it to be reported separately, but BRSR Principle 6 EI6 asks for Scope 1 emissions broken down by CO2, CH4, N2O, HFCs, PFCs, SF6, NF3. What disclosure gap does this create, and what risk does it pose for comparability between companies in biomass-intensive industries such as sugar, paper, or food processing?",
+    "ground_truth": "GHG Protocol Chapter 4 explicitly states: 'Direct CO2 emissions from the combustion of biomass shall not be included in scope 1 but reported separately.' The rationale is that biogenic CO2 from biomass combustion is considered part of the short-term biological carbon cycle and differs from fossil-derived CO2, which represents a net addition to the atmosphere. BRSR Principle 6 EI6 requires disclosure of 'Total Scope 1 emissions (Break-up of the GHG into CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, if available)' without distinguishing between fossil CO2 and biogenic CO2 from biomass combustion. This creates an ambiguity: a company following GHG Protocol strictly would exclude biomass CO2 from its Scope 1 figure and report it as a separate line item, yielding a lower stated Scope 1 total. A company that reports all combustion CO2 — including from biomass boilers — within Scope 1 would show a higher figure. For biomass-intensive sectors like sugar mills, paper and pulp companies, breweries, or any company using agricultural waste as fuel, this distinction can be substantial. Two BRSR filers in the same sector using different treatments of biomass CO2 would show significantly different Scope 1 numbers even with identical physical operations, making peer benchmarking and investor comparison unreliable. Since BRSR does not explicitly align with the GHG Protocol biomass exclusion rule and does not require companies to disclose their treatment of biogenic CO2, this disclosure gap persists and is invisible in the BRSR format itself.",
+    "source": "both",
+    "type": "sensemaking"
+  },
+  {
+    "id": 25,
+    "question": "A listed Indian company makes a significant acquisition mid-year, adding a large subsidiary with substantial Scope 1 emissions. GHG Protocol's consistency principle requires historical data to be recalculated when organizational boundaries change. How should this company handle its BRSR Principle 6 EI6 two-year comparison, and what happens if it does not recalculate?",
+    "ground_truth": "GHG Protocol Chapter 5 on tracking emissions over time states: 'Companies often undergo significant structural changes such as acquisitions, divestments, and mergers. These changes will alter a company's historical emission profile, making meaningful comparisons over time difficult. In order to maintain consistency over time, or in other words, to keep comparing like with like, historic emission data will have to be recalculated.' BRSR Principle 6 EI6 requires Scope 1 and Scope 2 disclosures in a side-by-side two-column format: current financial year and previous financial year. The intent of this two-year format is to enable year-over-year trend analysis of a company's emissions performance. The GHG Protocol-consistent approach is: if the acquisition is significant, the company should recalculate the previous year's emissions to include the acquired subsidiary's emissions as if it had been within the boundary for that full year, then clearly disclose in the BRSR that the previous year figure has been restated due to the acquisition and explain the reason for the change. If the company does not recalculate and simply reports the pre-acquisition previous-year figure alongside the current-year figure that now includes the subsidiary, the BRSR disclosure will show an apparent large jump in absolute Scope 1 and Scope 2 emissions and a likely worse intensity metric (Scope 1 and 2 per rupee of turnover), even if the company's actual operational emissions efficiency per unit of output improved. Investors and ESG analysts who use BRSR year-over-year comparisons to assess emissions trends would draw incorrect conclusions — reading an acquisition-driven boundary change as deteriorating environmental performance. This is particularly relevant for large Indian conglomerates that frequently acquire businesses across reporting periods.",
+    "source": "both",
+    "type": "sensemaking"
+  },
+  {
+    "id": 26,
+    "question": "Two competing listed companies in the same Indian manufacturing sector both file BRSR on a consolidated basis and each hold a 50% stake in a shared joint venture, but Company A has operational control over the JV while Company B does not. Company A uses the GHG Protocol operational control approach; Company B also uses operational control. Can an investor meaningfully compare their BRSR Scope 1 figures, and what would the investor specifically need to investigate?",
+    "ground_truth": "No, the investor cannot directly compare the two BRSR Scope 1 figures without understanding the consolidation treatment of the shared JV. Under GHG Protocol Chapter 3 operational control approach: Company A has the full authority to introduce and implement operating policies at the JV, so it accounts for 100% of the JV's Scope 1 emissions. Company B does not have operational control — the JV's operating policies are controlled by Company A — so Company B accounts for 0% of the JV's Scope 1 emissions under operational control. The result: the same physical emissions from the shared JV appear in full in Company A's BRSR Scope 1 disclosure and not at all in Company B's BRSR Scope 1 disclosure, even though both companies hold equal 50% equity stakes and both are following GHG Protocol correctly. GHG Protocol explicitly acknowledges this possibility: 'When two or more companies hold interests in the same joint operation and use different consolidation approaches, emissions from that joint operation could be double counted. This may not matter for voluntary corporate public reporting as long as there is adequate disclosure from the company on its consolidation approach.' For an investor to make a meaningful comparison, they would need to: (1) Check BRSR Section A Q13 to confirm both companies file on a consolidated basis; (2) Check BRSR Section A Q21 to identify which joint ventures are disclosed, their legal structures, and ownership percentages; (3) Check the methodology note accompanying Principle 6 EI6 to identify which GHG Protocol consolidation approach each company used; (4) Verify whether the approach is consistently applied across both years of the BRSR two-year comparison. Without these disclosures, comparing Company A's and Company B's Scope 1 figures produces a misleading picture of their relative direct emissions impact and operational carbon efficiency.",
+    "source": "both",
+    "type": "sensemaking"
+  }
+]
