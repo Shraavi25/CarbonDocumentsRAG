@@ -13,8 +13,7 @@ This implementation uses a single flat vector collection (as opposed to a hierar
 
 ## Pipeline
 
-
-
+```
 PDF source docs
      │
      ▼
